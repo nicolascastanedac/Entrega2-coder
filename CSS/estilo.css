@@ -1,0 +1,134 @@
+
+/*estilo al header*/
+.logo{
+	width:339px;
+	height:339px;
+}
+.cabeceras{
+      width: 100%;
+	height:339px;
+	background-color: rgb(7,40,85);
+	margin-left: 0px;     
+}
+header{
+	width: 100%;
+	height:339px;
+	background-color: rgb(7,40,85);
+	margin-left: 0px;
+
+}
+
+header img{
+	width: 339px;
+	height:339px;
+
+}
+/*estilo al menu de nav*/
+.navigationbar li{
+	border: 2px;
+
+}
+p{
+	width: 100%
+}
+
+
+
+nav ul {
+
+	
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+
+}
+
+nav li {
+        display: inline-block;
+        
+      }
+
+nav a {
+        display: block;
+        color: rgb(7,40,85) ;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+
+
+      }      
+/*estilo a las imagenes del inicio*/
+      .imagenes img{
+      	width: 339px;
+	height:339px;
+
+	margin: 50px
+      }
+
+
+
+
+.info_contacto div{
+display: inline;
+}
+/*estilo a la seccion de info bote en experiencias palmar*/
+.info_bote{
+	
+	text-align: center;
+	width: 100%;
+	height:500px;
+}
+.info_bote img{
+	width: 339px;
+	height:339px;
+}
+.info_bote ul{
+	overflow: hidden;
+        display: flex;
+        width: 100%;
+        padding: 14px 16px;
+
+    }
+.info_bote li{
+	margin: 10px;
+}
+
+
+ hr {
+        border: 0;
+        border-top: 1px solid gray;
+      }
+
+/*estilo a la seccion del form donde haces la resrva*/      
+.reserva{
+	padding: 200px;
+	padding-left: 0px;
+
+}
+/*estilo a los videos en inicio*/
+.multimedia1 video{
+	width: 600px;
+	height: 400px;
+	width: 100%;
+}
+/*estilo a el footer*/
+.footerk {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  background-color: rgb(247,250,222);
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  height: 20px;
+  margin-left:0px;
+
+}
+
+/*estilo a el form en contacto*/
+.dejainfo{
+	margin-bottom: 50px;
+}
