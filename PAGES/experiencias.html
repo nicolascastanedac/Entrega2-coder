@@ -8,16 +8,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Contacto</title>
 	<!--estilos boostrap-->
-	<link rel="stylesheet" href="CSS/bootstrap.css">
+	<link rel="stylesheet" href="../CSS/bootstrap.css">
 	<!--estilos propios-->
-	<link rel="stylesheet" href="CSS/estilo.css">
+	<link rel="stylesheet" href="../CSS/estilo.css">
 </head>
 <body>
-	
+	<HEADER>
+
+  
   <div class="container-fluid">
     <div class="row cabeceras">
       <div class="col">
-        <img class="logo" src=" ./multimedia/palmar.jpeg">	
+        <img class="logo" src="../multimedia/palmar.jpeg">	
       </div>
       <div class="col">
           
@@ -36,13 +38,13 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item active">
-                    <a class="nav-link" href="./inicio.html">Inicio <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../PAGES/index.html">Inicio </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./experiencias.html">Experiencias</a>
+                    <a class="nav-link" href="../PAGES/experiencias.html">Experiencias<span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                    <a class="nav-link" href="../PAGES/contacto.html">Contacto</a>
             </li>
                 </ul>
               </div>
@@ -50,7 +52,9 @@
           </div>
         </div>
       </div>
+    </HEADER>
 
+    <main>
 <div class="row container-fluid">
   <form class="parametros_botes">
 <div class="col">
@@ -87,19 +91,19 @@
 </div>
 
 <div class="row info_bote">
-  <h1>Nombre del bote</h1>
+  <h1 class="titulo1">Nombre del bote</h1>
   <div class="carrousel">
 
     <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./multimedia/img1.jpeg" class="d-block w-100" alt="...">
+          <img src="../multimedia/img1.jpeg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="./multimedia/img2.jpeg" class="d-block w-100" alt="...">
+          <img src="../multimedia/img2.jpeg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="./multimedia/img3.jpeg" class="d-block w-100" alt="...">
+          <img src="../multimedia/img3.jpeg" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -115,93 +119,33 @@
 
 
   </div>
-  <h2>Caracteristicas del bote</h2>
+  <div class="boat_caract">
+
+  
+  <h2 class="titulo1">Caracteristicas del bote</h2>
   <ul>
     <li> personas </li>
     <li> cuartos </li>
     <li> baños </li>
     <li> pies </li>
   </ul>
+</div>
+
+<div class="boat-infomore">
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.</p>
     <br>
   <hr>
-
 </div>
-
-   <!--   
-<div>
-	 <form class="parametros_botes">
-      <label for="num_personas">Número de personas:</label>
-      <select id="num_personas" name="num_personas">
-        <option value="1-5">1-5 personas</option>
-        <option value="6-10">6-10 personas</option>
-        <option value="11-20">11-20 personas</option>
-      </select><br>
-      <label for="tamano_bote">Tamaño bote:</label>
-      <select id="tamano_bote" name="tamano_bote">
-        <option value="small">pequeño</option>
-        <option value="medium">mediano</option>
-        <option value="big">grande</option>
-      </select><br>
-        <label>
-    Elige una fecha:
-    <input type="date" name="fecha" />
-  </label>
-
-  <p><button>Submit</button></p>
-
-
-   
-    </form>
 </div>
-
-
-<br>
-<section class="info_bote">
-
-<h1>Nombre del bote</h1>
-<img src=" multimedia/barco.jpeg">
-<br>
-<h2>Caracteristicas del bote</h2>
-<ul>
-	<li> personas </li>
-	<li> cuartos </li>
-	<li> baños </li>
-	<li> pies </li>
-</ul>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.</p>
-	<br>
-<hr>
-
-
-</section>
-
-<br>
-<section class="reserva">
-<h2>Reserva Ya</h2>
-  <form>
-      <label for="name">Nombre:</label>
-      <input type="text" id="name" name="name" required><br>
-
-      <label for="lastname">Apellido:</label>
-      <input type="text" id="lastname" name="lastname" required><br>
-
-      <label for="email">Correo electronico:</label>
-      <input type="email" id="email" name="email" required><br>
-
-      <label for="cellphone">Celular:</label>
-      <input type="tel" id="cellphone" name="cellphone" required><br>
-
-      <input type="submit" value="Submit">
-    </form>
-</section>
+</main>
+  
 
     <footerk>
   <div class="footerk">
     <p>¡Gracias por preferirnos!</p>
   </div>
 </footerk>
--->
+
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 
