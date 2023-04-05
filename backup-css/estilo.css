@@ -187,6 +187,7 @@ main p{
   font-size: 30px;
   color: #080808;
   height: 50px;
+  
 }
 
 .dejainfo label{
@@ -201,4 +202,22 @@ main p{
 
 .info_contacto1{
       height: 300px;
+}
+
+.H1TEST{
+      font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: #080808;
+  
+}
+.tituloP{
+      position: relative;
+      padding: 10px;
+      margin: 0;
+      font-family: "Raleway", sans-serif;
+      font-weight: 300;
+      font-size: 30px;
+      color: #080808;
+      height: 50px;
 }
