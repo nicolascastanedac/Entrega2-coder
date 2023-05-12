@@ -69,13 +69,6 @@ nav a {
     margin-left: auto;
       }
 
-
-
-
-.info_contacto div{
-display: inline;
-}
-
 .info_bote{
 	
 	text-align: center;
@@ -91,8 +84,8 @@ display: inline;
 	overflow: hidden;
         display: flex;
         width: 100%;
-        padding: 14px 16px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       padding: 14px 16px;
+     
 
     }
 .info_bote li{
@@ -100,24 +93,7 @@ display: inline;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
- hr {
-        border: 0;
-        border-top: 1px solid gray;
-      }
-
      
-.reserva{
-	padding: 200px;
-	padding-left: 0px;
-
-}
-
-.multimedia1 video{
-	width: 600px;
-	height: 400px;
-	width: 100%;
-}
 
 .footerk {
   position: fixed;
@@ -136,9 +112,6 @@ display: inline;
 
 }
 
-.dejainfo{
-	margin-bottom: 50px;
-}
 
 .carrousel{
       width: 500px;
@@ -193,12 +166,7 @@ main p{
   
 }
 
-.dejainfo label{
-      color: #100a07;
-      font-weight: bold;
-      width: 130px;
-      float: left;
-}
+
 .info_contacto{
       height: 300px;
 }
@@ -241,4 +209,23 @@ main p{
 .info_bote{
     height: 500px;
     padding-bottom: 50px;
+}
+
+.labels{
+      color: rgb(7,40,85);
+      font-weight: bold;
+}
+
+.caracteristicas{
+      font-size: medium;
+}
+
+.labs{
+      color: rgb(7,40,85);
+      font-weight: bold;
+      width: 130px;
+      float: left;
+      font-size: 18px;
+  
+      
 }

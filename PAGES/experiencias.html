@@ -29,8 +29,8 @@
     </div>
     
     </div>
-    <div class="container-fluid">
-        <div class="row navigationbar">
+    <nav class="container-fluid">
+        <MENU class="row navigationbar">
           <div class="col-lg-12 col-xs-12">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -52,17 +52,17 @@
               </div>
             </nav>
           </div>
-        </div>
-      </div>
+        </MENU>
+      </nav>
     </HEADER>
 
 
     <main class="container-fluid">
-<div class="row container-fluid">
+<section class="row container-fluid">
   <form class="parametros_botes">
     
-<div class="col">
-  <label  for="num_personas">Número de personas:</label>
+<div class="row labs">
+  <label class="labels" for="num_personas">Número de personas:</label>
   <select  id="num_personas" name="num_personas">
     <option value="1-5">1-5 personas</option>
     <option value="6-10">6-10 personas</option>
@@ -70,8 +70,8 @@
   </select><br>
 </div>
 
-<div class="col ">
-  <label for="tamano_bote">Tamaño bote:</label>
+<div class="row labs ">
+  <label class="labels" for="tamano_bote">Tamaño bote:</label>
   <select id="tamano_bote" name="tamano_bote">
     <option value="small">pequeño</option>
     <option value="medium">mediano</option>
@@ -79,23 +79,23 @@
   </select><br>
 </div>
 
-<div class="col">
-  <label>
-    Elige una fecha:
+<div class="row labs">
+  <label class="labels">
+    Elige una fecha: </label>
     <input type="date" name="fecha" />
-  </label>
+ 
 
 </div>
 
-<div class="col-12 ">
-  <p><button>Submit</button></p>
+<div class="row ">
+  <p><button class="botones">Submit</button></p>
   
 </div>
 </form>
-</div>
+</section>
 
-<div class="row info_bote">
-  <h1 class="H1TEST">Nombre del bote</h1>
+<article class="row info_bote">
+  <h1 class="H1TEST labels">Nombre del bote</h1>
   <div class="carrousel">
 
     <div id="carouselExample" class="carousel slide">
@@ -126,12 +126,12 @@
   <div class="boat_caract container-fluid row">
 
   
-  <h2 class="titulo2">Caracteristicas del bote</h2>
-  <ul>
-    <li> personas </li>
-    <li> cuartos </li>
-    <li> baños </li>
-    <li> pies </li>
+  <h2 class="tituloP labels">Caracteristicas del bote</h2>
+  <ul class="labels labs Caracteristicas">
+    <li class="labs"> personas </li>
+    <li class="labs"> cuartos </li>
+    <li class="labs"> baños </li>
+    <li class="labs"> pies </li>
   </ul>
 </div>
 
@@ -140,7 +140,7 @@
     <br>
   <hr>
 </div>
-</div>
+</article>
 </main>
   
 
